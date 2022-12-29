@@ -65,7 +65,7 @@ a {
     color: gray;
 }
 
-.photodiary .hed {
+.hed {
     font-family: 'Playfair Display', serif;
     font-size: 35px;
     font-weight: 550;
@@ -80,13 +80,20 @@ a {
     margin-bottom: 35px;
 }
 
+.chapter3 {
+    margin-top: 20px;
+}
+
+.row1 {
+    margin-bottom: 130px;
+}
 
 .leftt {
-    padding-right: 40px;
+    padding-right: 35px;
 }
 
 .rightt {
-    padding-left: 40px;
+    padding-left: 35px;
 }
 
 .leftt .image {
@@ -97,8 +104,11 @@ a {
     padding-right: 90px;
 }
 
-.image img {
+.box img {
     width: 100%;
 }
 
+.box {
+    margin-bottom: 40px;
+}
 
