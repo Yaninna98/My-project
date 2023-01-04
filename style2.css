@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-color: white;
+}
+
+header {
+    visibility: hidden;
+}
+
+.odstephed {
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    background-color: white !important;
+}
+
+.cl {
+    padding: 0px !important;
+}
+
+.minimo {
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu p {
+    font-size: 13px;
+    font-weight: 550;
+    margin-left: 130px;
+    margin-bottom: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.chapter1 {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.girls img {
+    width: 100%;
+}
+
+
+.chapter2, .chapter3, .chapter5 {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.photodiary {
+    color: black;
+    background-color: white;
+    padding: 90px;
+}
+
+.graytext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+
+.hed {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-weight: 550;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.hedd {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 550;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.photodiary .phototext {
+    font-family: 'Playfair Display', serif;
+    font-size: 16.5px;
+    font-weight: 450;
+    margin-bottom: 35px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 130px;
+}
+
+.row1 .col {
+    padding: 0px 100px;
+}
+
+.row1 img {
+    width: 100%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftt {
+    padding-right: 35px;
+}
+
+.rightt {
+    padding-left: 35px;
+}
+
+.leftt .image {
+    padding-left: 90px;
+}
+
+.rightt .image {
+    padding-right: 90px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.row2 img {
+    width: 100%;
+}
+
+.box {
+    margin-bottom: 40px;
+}
+
+.chapter3 .row1 {
+    margin: 0px 0px 60px;
+}
+
+.chapter3 p {
+    font-family: 'Playfair Display', serif;
+}
+
+.kir {
+    margin: 0px !important;
+    padding: 0px 30px 20px;
+}
+
+.chapter4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgb(240, 240, 240);
+}
+
+.chapter4 .row{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.colcent {
+    padding: 0px;
+}
+
+.you {
+    padding: 50px 10px 0px;
+}
+
+
+.inp {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colcent input {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 550;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 17px;
+}
+
+.inp input:focus {
+    border: none !important;
+}
+
+::placeholder {
+    color: rgb(87, 86, 86);
+}
+
+.colcent button {
+    padding: 0px !important; 
+    background-color: rgb(240, 240, 240);
+    border: none;
+    color: rgb(87, 86, 86);
+    transform: rotate(45deg);
+    border-radius: 50%;
+}
+
+button svg {
+    width: 20px;
+}
+
+.fl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.fl .share {
+    margin-top: 3px;
+    
+}
+
+.fl span {
+    margin-left: 15px;
+}
+
+.fl img {
+    width: 20px;
+}
+
+.fl svg {
+    width: 20px;
+}
+
+.fl a:hover {
+    color: black;
+}
+
+.chapter5 {
+    margin-top: 100px;
+    padding: 0px 2px;
+}
+
+.row5 {
+    padding: 10px 90px;
+}
+
+.pho img {
+    width: 55%;
+    border-radius: 50% !important;
+}
+
+.di span {
+    background-color: rgb(167, 216, 219);
+    border-radius: 50% !important;
+    padding: 13% 17%;
+    font-size: 40px;
+    color: white;
+    font-weight: 350;
+}
+
+.dii span {
+    background-color: rgb(214, 213, 213);
+    border-radius: 50% !important;
+    padding: 13% 17%;
+    font-size: 40px;
+    color: white;
+    font-weight: 350;
+}
+
+.name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nametext {
+    font-family: 'Playfair Display', serif;
+}
+
+.row5 input {
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: 1px solid  rgb(214, 213, 213);
+}
+
+.row5 ::placeholder {
+    color: rgb(214, 213, 213);
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.foot span {
+    margin-left: 20px;
+}
+
+.foot .tv svg {
+    color: rgb(214, 213, 213);
+    margin-left: 15px;
+}
+
+.foot svg {
+    width: 20px;
+}
+
+.row5 .col {
+    padding: 0px;
+}

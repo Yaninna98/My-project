@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
-    background-color: aqua;
+    background-color: white;
 }
 
 .odstephed {
@@ -48,7 +48,7 @@ a {
 }
 
 
-.chapter2, .chapter3 {
+.chapter2, .chapter3, .chapter5 {
     margin-left: 70px;
     margin-right: 70px;
 }
@@ -85,6 +85,8 @@ a {
 }
 
 .row1 {
+    display: flex;
+    flex-direction: row;
     margin-bottom: 130px;
 }
 
@@ -112,3 +114,75 @@ a {
     margin-bottom: 40px;
 }
 
+
+
+.chapter4 {
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.colcent {
+    padding: 0px;
+    margin: 0px 380px 100px;
+    border-bottom: 2px solid black;
+}
+
+.colcent p {
+    text-align: center;
+    margin: 90px 0px;
+}
+
+.inp {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colcent input {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 550;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 17px;
+}
+
+.inp input:focus {
+    border: none !important;
+}
+
+::placeholder {
+    color: rgb(87, 86, 86);
+}
+
+.colcent button {
+    padding: 0px !important; 
+    background-color: rgb(240, 240, 240);
+    border: none;
+    color: rgb(87, 86, 86);
+    transform: rotate(45deg);
+    border-radius: 50%;
+}
+
+button svg {
+    width: 20px;
+}
+
+.chapter5 {
+    margin-top: 150px;
+}
+
+.btncent  {
+    display: flex;
+    justify-content: center;
+}
+
+.btncent button {
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 15px 35px;
+    font-size: 20px;
+}
